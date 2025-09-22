@@ -2,8 +2,6 @@ let valores = [10, 5, 35, 20, 35, 15];
 let maior = valores[0];
 let segundoMaior = valores[0];   
 
-console.log(valores);
-
 for (let i = 0; i < valores.length; i++) {
     if (valores[i] > maior) {
         segundoMaior = maior;
